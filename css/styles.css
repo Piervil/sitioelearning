@@ -157,10 +157,6 @@ img {
   margin: 0 auto;
 }
 
-.cursos__flex:hover {
-  box-shadow: 1px 1px 7px rgb(120, 112, 112);
-}
-
 .cursos h2 {
   font-family: var(--font-head);
   font-size: 4rem;
@@ -483,12 +479,9 @@ footer {
     height: 100vh;
     transition: all .5s;
   }
-
-  .navbar__btn {
-    margin: 80px 30px;
-  }
+  
   .navbar__menu li {
-    padding: 30px;
+    padding: 15px;
     font-size: 2rem;
     color: var(--color-white);
   }
@@ -522,7 +515,6 @@ footer {
   
   .hero__picture {
     width: 500px;
-    margin: auto;
   }
 }
 
@@ -544,7 +536,29 @@ footer {
   }
   .hero__picture {
     width: 400px;
-    margin: auto;
+  }
+  iframe {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .hero__text p {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero__text a {
+    font-size: 3rem;
+    padding: 1rem 3rem;
+  }
+  .hero__text h1 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .hero__picture {
+    width: 400px;
   }
   iframe {
     width: 280px;
@@ -569,7 +583,6 @@ footer {
   }
   .hero__picture {
     width: 400px;
-    margin: auto;
   }
   iframe {
     width: 280px;
