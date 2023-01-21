@@ -1,0 +1,233 @@
+:root {
+  --color-primary: #0e0036;
+  --background-color: #7E3AF2;
+  --color-gray: #F2F8FE;
+  --color-white: #ffff;
+  --color-black: #0000;
+  --font-head:'Roboto Condensed', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*== THE HEADER  ==*/
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .4rem 10rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: var(--color-white);
+}
+
+.logo {
+  width: 4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 8rem;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__menu a {
+  font-family: var(--font-head);
+  color: var(--color-primary);
+  font-size: 1.8rem;
+}
+
+.navbar__menu a:hover {
+  color: var(--background-color);
+}
+
+.navbar__btn {
+  padding: 0 1rem;
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  background-color: var(--background-color);
+  border-radius: .5rem;
+  color: var(--color-white);
+  padding: .5rem 1rem;
+}
+
+.connect {
+  padding: 0 1rem;
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  background: linear-gradient(216deg, rgba(126,58,242,1) 0%, rgba(170,0,35,1) 100%);
+  border-radius: .5rem;
+  color: var(--color-white);
+  padding: .5rem 1rem;
+}
+
+/*== THE HERO  ==*/
+.hero {
+  background-color: var(--color-gray);
+}
+
+.container {
+  max-width: 1200px;
+  padding: 50px 30px;
+  margin: 0 auto;
+}
+
+.hero__flex{
+  display: flex;
+}
+
+.hero__text h1 {
+  width: 95%;
+  font-size: 4.9rem;
+  text-transform: uppercase;
+  font-family: var(--font-head);
+  padding-bottom: 15px;
+  padding-top: 40px;
+  margin-top: 30px;
+  color: var(--color-primary);
+}
+
+.hero__text p {
+  width: 80%;
+  line-height: 25px;
+  color: #929292;
+  padding-bottom: 20px;
+}
+
+.hero__text a {
+  padding: 0 1rem;
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  background: linear-gradient(216deg, rgba(126,58,242,1) 0%, rgba(170,0,35,1) 100%);
+  border-radius: .5rem;
+  color: var(--color-white);
+  padding: .5rem 1rem;
+}
+
+.hero__picture {
+  width: 900px;
+}
+
+/*== THE CURSOS ==*/
+.container__cursos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cursos__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  min-height: 120px;
+  background-color: var(--background-color);
+  border-radius: 1rem;
+  color: var(--color-white);
+  margin: 0 auto;
+}
+
+.cursos__flex:hover {
+  box-shadow: 1px 1px 3px var(--color-primary);
+}
+
+.cursos h2 {
+  font-family: var(--font-head);
+  font-size: 4rem;
+  padding: 30px;
+  text-align: center;
+  color: var(--color-primary);
+  padding-top: 50px;
+}
+
+.cursos__picture img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.cursos__info h3 {
+  padding: 15px;
+}
+
+.cursos__info p {
+  padding-inline: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.cursos__prof {
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.cursos__prof p {
+  padding: .5rem;
+}
+
+.cursos__prof img {
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--color-white);
+}
+
+.cursos__price {
+  display: flex;
+  padding-inline: 1.5rem;
+  padding-top: 2rem;
+}
+
+.cursos__price span {
+  padding-inline: .4rem;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.cursos__price .offer {
+  text-decoration: line-through;
+}
+
+.cursos__buy {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  padding: .4rem;
+  text-align: center;
+  border-radius: 2rem;
+  margin: .5rem 1.5rem 1.5rem;
+  width: 50%;
+  border: none;
+}
