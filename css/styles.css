@@ -43,16 +43,8 @@ img {
   background-color: var(--color-white);
 }
 
-.main__header .logo {
+.logo {
   width: 4rem;
-}
-
-.navbar {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  gap: 2rem;
-  padding: 0 8rem;
 }
 
 #check, .toggle__menu {
@@ -64,6 +56,12 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  font-weight: 500;
+}
+
+.navbar__menu:hover {
+  color: var(--color-black);
+
 }
 
 .navbar__menu .navbar__menu a {
