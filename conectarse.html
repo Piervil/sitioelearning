@@ -9,11 +9,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/tyles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>La mejor plataforma Elearning</title>
   </head>
   <body>
+    <header class="main__header">
+      <a href="index.html"><img class="logo" src="assets/logo.svg" alt="logo del sitio"></a>
+      <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="toggle__menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="navbar__menu">
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-
+      <section class="form__connect">
+        <div class="form__container">
+          <form class="connect__info">
+            <input type="email" placeholder="Tu correo electrónico" required autocomplete="">
+            <input type="password" placeholder="Contraseña12345@**" required>
+            <a href="index.html">Enviar</a>
+          </form>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="container">
+        <div class="footer__info">
+          <div>
+            <p>&copy;2023 Derechos reservados.</p>
+          </div>
+          <div>
+            <p>Hecho con ❤️ Por <a href="https://www.linkedin.com/in/jacques-jean-piervil-474b3a191/" target="_blank">Piervil Jacques</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
