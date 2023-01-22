@@ -599,3 +599,46 @@ footer {
   }
 }
 
+/* == SECCIÓN INSCRIBIRSE == */
+.form {
+  background-color: var(--color-gray);
+  height: 100vh;
+}
+.form__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15%;
+}
+
+.form__info input {
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+  border: 1px solid rgba(128, 128, 128, 0.612);
+}
+
+.form__info a {
+  background-color: #0e0036;
+  color: #ffff;
+  border-radius: 7px;
+  padding: 5px 65px;
+}
+
+@media screen  and (max-width: 912px) {
+  .form__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 35%;
+  }  
+}
