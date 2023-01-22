@@ -124,17 +124,16 @@ img {
 }
 
 .hero__text a {
-  padding: 0 1rem;
   font-family: var(--font-head);
   font-size: 1.8rem;
   background: linear-gradient(216deg, rgba(126,58,242,1) 0%, rgba(170,0,35,1) 100%);
   border-radius: .5rem;
   color: var(--color-white);
-  padding: .5rem 1rem;
+  padding: .7rem 2rem;
 }
 
 .hero__picture {
-  width: 900px;
+  max-width: 100%;
 }
 
 /*== SECCIÓN CURSOS ==*/
@@ -479,9 +478,9 @@ footer {
     height: 100vh;
     transition: all .5s;
   }
-  
+
   .navbar__menu li {
-    padding: 15px;
+    padding: 20px;
     font-size: 2rem;
     color: var(--color-white);
   }
@@ -510,7 +509,7 @@ footer {
   
   .hero__text a {
     font-size: 3rem;
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
   }
   
   .hero__picture {
@@ -528,7 +527,7 @@ footer {
   
   .hero__text a {
     font-size: 3rem;
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
   }
   .hero__text h1 {
     width: 100%;
@@ -551,7 +550,7 @@ footer {
   
   .hero__text a {
     font-size: 3rem;
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
   }
   .hero__text h1 {
     width: 100%;
@@ -574,8 +573,8 @@ footer {
   }
   
   .hero__text a {
-    font-size: 3rem;
-    padding: 1rem 3rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
   }
   .hero__text h1 {
     width: 100%;
