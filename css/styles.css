@@ -51,6 +51,11 @@ img {
   display: none;
 }
 
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .navbar__menu {
   display: flex;
   justify-content: space-between;
